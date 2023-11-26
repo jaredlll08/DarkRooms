@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.blamejared.darkrooms.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinGrassBlock"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "darkrooms.refmap.json"
+}
