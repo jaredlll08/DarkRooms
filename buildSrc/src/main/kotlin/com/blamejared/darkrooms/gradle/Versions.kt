@@ -1,7 +1,7 @@
 package com.blamejared.darkrooms.gradle
 
 object Versions {
-    const val MOD = "1.0"
+    const val MOD = "2.0"
     const val JAVA = "17"
     const val MINECRAFT = "1.20.1"
     const val FORGE = "47.0.4"
