@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "darkrooms",
-  "name": "DarkRooms",
+  "id": "${MODID}",
+  "name": "${NAME}",
   "version": "${version}",
-  "environment": "client",
-  "icon": "assets/darkrooms/icon.png",
-  "authors": [
-    "Jaredlll08"
-  ],
+  "environment": "*",
+  "icon": "icon.png",
+  "authors": ["${AUTHOR}"],
   "license": "MIT",
   "contact": {
-    "homepage": "https://minecraft.curseforge.com/projects/darkrooms",
-    "sources": "https://github.com/jaredlll08/darkrooms"
+    "homepage": "${CURSE_HOMEPAGE}",
+    "sources": "${GIT_REPO}",
+    "issues": "${GIT_REPO}/issues"
   },
-  "description": "This mod brings back the old dark room mechanics that was primarily used to generate EMC, it does this by making it that when grass is bonemealed, if the light level is 0, it drops the grass / flowers instead of planting them.",
+  "description": "${DESCRIPTION}",
   "entrypoints": {
   },
   "depends": {
-    "fabricloader": ">=0.14",
-    "java": ">=17",
-    "minecraft": "1.20.2"
+    "fabricloader": ">=${FABRIC_LOADER}",
+    "java": ">=${JAVA}",
+    "minecraft": "${MINECRAFT}"
   },
   "recommends": {
     "fabric": "*"
