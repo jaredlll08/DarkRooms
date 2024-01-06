@@ -20,7 +20,7 @@ import java.util.Iterator;
 import java.util.Set;
 
 @Mixin(GrassBlock.class)
-public class MixinGrassBlock extends SpreadingSnowyDirtBlock {
+public abstract class MixinGrassBlock extends SpreadingSnowyDirtBlock {
     
     protected MixinGrassBlock(Properties $$0) {
         
