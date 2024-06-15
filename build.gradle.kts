@@ -1,5 +1,5 @@
-import com.blamejared.darkrooms.gradle.Properties
-import com.blamejared.darkrooms.gradle.Versions
+import com.blamejared.Properties
+import com.blamejared.Versions
 import com.blamejared.gradle.mod.utils.GMUtils
 import com.diluv.schoomp.Webhook
 import com.diluv.schoomp.message.Message
