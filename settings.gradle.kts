@@ -17,5 +17,4 @@ plugins {
 rootProject.name = "DarkRooms"
 include("common")
 include("fabric")
-//include("forge")
 include("neoforge")
